@@ -1,0 +1,11 @@
+.quora_container{
+    text-align: center;
+    font-size: 28px;
+    text-decoration-line: underline;
+}
+
+.quora_body{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}

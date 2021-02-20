@@ -1,0 +1,41 @@
+.sideOptionsMain{
+    display: flex;
+    flex-direction: column;
+}
+
+.sideOptions{
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.sideOptions:hover{
+    background: rgb(211, 211, 211);
+    border-radius: 5px;
+}
+
+.sideOptions > img {
+    height: 25px;
+    border-radius: 8px;
+    margin-left: 20px;
+}
+
+.sideOptions > .MuiSvgIcon-root {
+    font-size: medium;
+    margin-left: 20px;
+}
+
+.sideOptions > p {
+    margin-left: 9px;
+    color: gray;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.sideOptions > .text{
+    margin-left: 20px;
+    color: gray;
+    font-weight: 400;
+    font-size: 13px;
+}

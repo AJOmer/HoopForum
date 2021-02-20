@@ -1,0 +1,94 @@
+.nav_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+    width: 100%;
+    background-color: white;
+
+    position: sticky;
+    z-index: 1000;
+    top: 0;
+    box-shadow: 0px 5px 15px -9px rgba(0, 0, 0, 0.5);
+}
+
+.nav_logo > img{
+    height: 80px;
+    margin-right: 20px;
+}
+
+.nav_tabs{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.nav_tabs > .active > .MuiSvgIcon-root {
+    fill: #81f1f1b;
+}
+
+.navIcon > .MuiSvgIcon-root {
+    font: xx-large;
+    background-color: white;
+    padding: 5px 20px;
+    color: gray;
+}
+
+.navIcon > .MuiSvgIcon-root:hover{
+    background-color: rgba(233, 233, 233, 233.5);
+    border-radius: 10px;
+    color: #b92b27;
+}
+
+.navSearch{
+    display: flex;
+    align-items: center;
+    border: 1px solid lightgray;
+    padding: 5px;
+    border-radius: 5px;
+    margin-left: 5px;   
+}
+
+.navSearch > input {
+    background-color: transparent;
+    outline: none;
+    border: none;
+    color: rgb(49, 49, 49);
+}
+.navSearch > .MuiSvgIcon-root{
+    color: gray;
+}
+
+.nav_avatar{
+    cursor: pointer;
+}
+
+.navAvi{
+    display: flex;
+    align-items: center;
+    margin-left: 25px;
+}
+
+.navAvi > .MuiSvgIcon-root {
+    font-size: xx-large;
+    color: gray;
+    margin-left: 25px;
+    cursor: pointer;
+}
+
+.navAvi > .MuiSvgIcon-root:hover{
+    color: #b92b27;
+}
+
+.navAvi > .MuiSvgButton-root{
+    color: white;
+    background: #b92b27;
+    text-transform: inherit;
+    border-radius: 20px;
+    margin-left: 25px;
+}
+
+.navAvi > .MuiSvgButton-root:hover{
+    color: #ffffff;
+    background: #8f1f1b;
+}
