@@ -1,0 +1,197 @@
+@import url("https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap");
+
+.login_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: url("https://i.pinimg.com/originals/6f/f4/15/6ff41557836e6d75880a0b3107bb3dc5.jpg");
+    background-position: center;
+    background-repeat: no-repeat;   
+}
+
+.login_storage{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 700px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;    
+}
+
+.login_logo{
+    display: flex;
+    justify-content: center;
+}
+
+.login_description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.login_description > h3 {
+    margin-top: 10px;
+    text-align: center;
+    font-size: xx-large;
+    font-family: "Cedarville Cursive", cursive;   
+}
+
+.login_description > p {
+    color: gray;
+    text-align: center;
+    font-weight: 500;
+    font-size: 20px; 
+}
+
+.login_auth{
+    display: flex;
+    margin-top: 50px;
+}
+
+.login_auth_options{
+    display: flex;
+    flex: 0.5;
+    flex-direction: column;
+    padding: 20px;
+    border-right: 1px solid lightgray;   
+}
+
+.login_auth_option{
+    display: flex;
+    align-items: center;
+    padding: 7px;
+    margin-bottom: 15px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    cursor: pointer;    
+}
+
+.login_auth_option > img {
+    height: 30px;
+    object-fit: contain;
+}
+
+.login_auth_option:hover{
+    background-color: rgb(226, 226, 226);
+}
+
+.login_auth_option > p {
+    margin-left: 11px;
+}
+
+.login_authDesc{
+    display: flex;
+    align-items: center;
+    padding: 7px;
+    margin-bottom: 15px;   
+}
+
+.login_authDesc > p {
+    font-size: small;
+    color: gray;
+}
+
+.login_email{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    flex: 0.5;
+    margin-left: 20px;   
+}
+
+.login_label > h4 {
+    padding: 5px;
+}
+
+.login_inputs {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+
+.login_input {
+    padding: 5px;
+}
+.login_input > input {
+    padding: 10px;
+    width: 100%;
+    outline: none;
+    border: none;
+    background-color: rgb(236, 236, 236);
+}
+
+.login_forgot{
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;   
+}
+
+.login_forgot > small {
+    color: gray;
+    cursor: pointer;
+}
+
+.login_forgot > small:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+.login_forgot > button {
+    padding: 9px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer; 
+}
+
+.login_email > button {
+    padding: 9px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.login_language{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    margin-top: 30px;
+    padding: 10px;
+}
+
+.login_language > .MuiSvgIcon-root{
+    color: gray;
+}
+
+.login_footer{
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;   
+}
+
+.login_footer > p {
+    color: gray;
+    font-size: small;
+    cursor: pointer;    
+}
+
+.login_footer > p:hover{
+    text-decoration: underline;
+}

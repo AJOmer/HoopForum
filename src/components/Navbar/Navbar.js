@@ -9,11 +9,17 @@ import LanguageIcon from '@material-ui/icons/Language';
 import AssignmentTurnedInOutlinedIcon from '@material-ui/icons/AssignmentTurnedInOutlined';
 import { Avatar, Button, Input} from '@material-ui/core';
 import QuoraLogo from '../../imgs/quora.png';
+import db, { auth } from '../../firebase';
+import firebase from 'firebase';
+import { useSelector } from 'react-redux';
 
 import './Navbar.css';
 import { AssignmentTurnedIn } from '@material-ui/icons';
+import { selectUser } from '../../features/userSlice';
 
 function Navbar(){
+
+    const user = useSelector(selectUser);
     return (
         <div className="nav_container">
             <div className="nav_logo">
@@ -41,7 +47,7 @@ function Navbar(){
                 </div>
                 <div className="navAvi">
                     <div className="nav_avatar">
-                        <Avatar/>
+                        <Avatar onClick={() => auth.signOut()} src={user.photo ? user.photo : "https://images-platform.99static.com//_QXV_u2KU7-ihGjWZVHQb5d-yVM=/238x1326:821x1909/fit-in/500x500/99designs-contests-attachments/119/119362/attachment_119362573"} />
                     </div>
                     <LanguageIcon/>
                     <Button>Add Question</Button>
